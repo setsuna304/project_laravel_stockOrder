@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="text-right">
-                    <a href="">+ add</a>
+                    <a href="/backoffice/create">+ add</a>
                 </div>
                 <div class="card">
 

@@ -11,9 +11,11 @@ class StockorderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    // manager order control
     public function index()
     {
         //
+        return view('backoffice');
     }
 
     /**
@@ -24,12 +26,14 @@ class StockorderController extends Controller
     public function create()
     {
         //
+        $type_vet = ['ราก','ลำต้น','ใบ','ดอก','ผล'];
+        return view('product-create',compact('type_vet'));
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -40,7 +44,7 @@ class StockorderController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -51,7 +55,7 @@ class StockorderController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -62,8 +66,8 @@ class StockorderController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -74,7 +78,7 @@ class StockorderController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

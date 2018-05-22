@@ -8,10 +8,9 @@
                 @else
                 <div hidden>
                     {{ Auth::user()->name }}
-
                 </div>
                     <div class="text-right">
-                        <a href="#">
+                        <a href="/home">
                             <button type="button" class="btn btn-outline-info"> Total product
                                 <h5 id="txt-product"></h5>
                             </button>
