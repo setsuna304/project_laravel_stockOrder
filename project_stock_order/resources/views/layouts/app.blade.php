@@ -8,14 +8,14 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Stockorder</title>
+    <title>Store Vegetable</title>
+
     <!-- Scripts -->
-    <script src="{{ asset('js/jquery-slim.min.js') }}" ></script>
+    <script src="{{asset('js/jquery-slim.min.js') }}" ></script>
     <script src="{{asset('js/bootstrap.min.js') }}" defer></script>
     <script src="{{asset('js/popper.min.js') }} " defer ></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-    @stack('scripts')
+@stack('scripts')
 
 <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -30,10 +30,10 @@
 <body>
 
 <div id="app">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light shadow">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                Stockorder
+                Store Vegetable
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
 
                 </ul>
 
-                <!-- Right Side Of Navbar -->
+                <!-- Right Side Of Navbar -->l
                 <ul class="navbar-nav ml-auto">
                     <!-- Authentication Links -->
                     @guest

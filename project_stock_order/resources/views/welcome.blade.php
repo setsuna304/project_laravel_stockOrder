@@ -39,11 +39,12 @@
                             <form action="/basket" method="post" class="form-control text-center border-0">
                                 @csrf
                                 <input type="text" name="token_basket" value="{{$basket_key}}" hidden>
-                                <input type="text" name="userid" value="{{Auth::user()->id}}" hidden>
+
 
                                 @guest()
 
                                 @else()
+                                    <input type="text" name="userid" value="{{Auth::user()->id}}" hidden>
                                     <button type="submit" class="btn btn-outline-success btn-submit "
                                             name="select_product"
                                             value="{{$order->id}}">

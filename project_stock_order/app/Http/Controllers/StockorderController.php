@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class StockorderController extends Controller
 {
@@ -15,10 +16,12 @@ class StockorderController extends Controller
     // manager order control
     public function index()
     {
-        //
-//        $list_item = DB::table('product_order')
-//            ->get();
-//        return view('backoffice',compact('list_item'));
+        $userid = Auth::user()->id;
+        $list_item = DB::table('product_order')
+            ->where('product_user_id', $userid)
+            ->orderBy('id', 'asc')
+            ->get();
+        return view('storehouse', compact('list_item'));
     }
 
     /**
@@ -87,11 +90,6 @@ class StockorderController extends Controller
     public function show($id)
     {
 
-        $list_item = DB::table('product_order')
-            ->where('product_user_id', $id)
-            ->orderBy('id', 'asc')
-            ->get();
-        return view('storehouse', compact('list_item'));
     }
 
     /**
@@ -102,7 +100,6 @@ class StockorderController extends Controller
      */
     public function edit($id)
     {
-
         //
         $content = DB::table('product_order')
             ->where('id', $id)
@@ -171,11 +168,11 @@ class StockorderController extends Controller
     public function destroy($id)
     {
 //
-//        DB::table('product_order')
-//            ->where('id', $id)
-//            ->delete();
-//        return redirect('/backoffice')->with('success');
-        dd("dasdad".$id);
+        DB::table('product_order')
+            ->where('id', $id)
+            ->delete();
+        return redirect('/backoffice')->with('success');
+//        dd("dasdad" . $id);
 
     }
 }

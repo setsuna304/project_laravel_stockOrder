@@ -8,3 +8,8 @@
 .btn-size-sm{
     width: 50px;
 }
+.shadow{
+    -webkit-box-shadow: 2px 8px 5px -4px rgba(0,0,0,0.18);
+    -moz-box-shadow: 2px 8px 5px -4px rgba(0,0,0,0.18);
+    box-shadow: 2px 8px 5px -4px rgba(0,0,0,0.18);
+}
