@@ -3,14 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                @guest()
 
+                @guest()
+                    {{--<div class="emtry"></div>--}}
                 @else
-                <div hidden>
-                    {{ Auth::user()->name }}
-                </div>
+
                     <div class="text-right">
-                        <a href="/home">
+                        <a href="/basket/{{Auth::user()->id}}">
                             <button type="button" class="btn btn-outline-info"> Total product
                                 <h5 id="txt-product"></h5>
                             </button>
@@ -18,25 +17,49 @@
                     </div>
                 @endguest
             </div>
-            {{--query box item--}}
-            <div class="col-xl-4">
-                <div class="card-body">
-                    <div class="card">
-                        <div class="img-thumbnail">
-                            <img src="https://s3-ap-southeast-1.amazonaws.com/wpimage.shopspotapp.com/wp-content/uploads/2017/08/08120504/20480018_1123379674464780_8404745370706867972_n.jpg"
-                                 class="img-thumbnail">
-                        </div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
-                        <button type="button" class="btn btn-outline-success btn-submit">Select product</button>
-                    </div>
-                </div>
-            </div>
-
         </div>
         {{--query box item--}}
+        <div class="row">
+            @foreach($list_order as $order)
+                <div class="col-4">
+                    <div class="card-body">
 
+                        <div class="card">
+                            <div class="img-thumbnail">
+                                <img src="/storage/photo_vet/{{$order->product_img}}"
+                                     class="img-thumbnail">
+                            </div>
+
+                            <div class="text-center">
+                                <h4 class="title"><a href="">{{$order->product_name}}</a></h4>
+                                <p class="description">คงเหลือ:{{$order->product_total}}กิโลกรัม</p>
+                                <p class="description">ราคา/กิโลกรัม: {{$order->product_price}}</p>
+                            </div>
+
+                            <form action="/basket" method="post" class="form-control text-center border-0">
+                                @csrf
+                                <input type="text" name="token_basket" value="{{$basket_key}}" hidden>
+                                <input type="text" name="userid" value="{{Auth::user()->id}}" hidden>
+
+                                @guest()
+
+                                @else()
+                                    <button type="submit" class="btn btn-outline-success btn-submit "
+                                            name="select_product"
+                                            value="{{$order->id}}">
+                                        Select product
+                                    </button>
+                                @endguest
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            @endforeach
+
+
+        </div>
     </div>
 
 @endsection
@@ -48,7 +71,24 @@
             $('.btn-submit').click(function () {
                 console.log(x += 1)
                 $('#txt-product').text(x)
-            })
+                $('.btn').addClass('active');
+            });
+
+
+            $('.active').click(function () {
+                console.log(x -= 1)
+                $('#txt-product').text(x)
+                $('.btn').removeClass('active');
+
+            });
+
+            //Todo:: //ปัญหา alert  ที่เกิดทุกครั้ง ที่ refesh page
+
+            // $('.emtry').show(3000,
+            //     swal("กรุณา login เข้าสู่ระบบ")
+            // );
+
+
         })
     </script>
 @endpush

@@ -17,6 +17,8 @@
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('/','ListorderController');
-Route::resource('/backoffice','StockorderController');
+Route::get('/storehouse', 'HomeController@index')->name('home');
+Route::resource('/', 'ListorderController');
+Route::resource('/backoffice', 'StockorderController');
+Route::resource('/basket', 'BasketCController');
+Route::resource('/payorder', 'PayController');

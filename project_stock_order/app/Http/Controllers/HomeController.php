@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -24,7 +25,10 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('basket');
+
+        $list_item = DB::table('product_order')
+            ->get();
+        return view('backoffice',compact('list_item'));
     }
 
 }
