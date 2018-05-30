@@ -15,12 +15,17 @@
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/filp/whoops" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/jakub-onderka/php-console-color" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/jakub-onderka/php-console-highlighter" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/laravel/socialite" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/league/oauth1-client" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/myclabs/deep-copy" />
@@ -42,6 +47,7 @@
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/phpunit/phpunit-mock-objects" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/project_stock_order/vendor/psy/psysh" />

@@ -44,8 +44,6 @@ class StockorderController extends Controller
     public function store(Request $request)
     {
         //
-
-
         $name = $request->product_name;
         $weight = $request->product_weight;
         $price = $request->product_price;

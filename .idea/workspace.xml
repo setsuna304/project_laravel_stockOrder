@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="488b45c0-1511-484a-ae77-5f5c810e22c5" name="Default" comment="" />
+    <list default="true" id="488b45c0-1511-484a-ae77-5f5c810e22c5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project_stock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_stock.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_stock_order/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/project_stock_order/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,80 +39,41 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_stock_order/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storehouse.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/storehouse.blade.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_stock_order/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="394">
+              <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_stock_order/config/services.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookAuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/FacebookAuthController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="42" />
               <folding>
-                <element signature="e#199#226#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListorderController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/ListorderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockorderController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1945">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basket.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/basket.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="e#816#850#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasketCController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/BasketCController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
+                <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +108,6 @@
         <option value="$PROJECT_DIR$/project_stock_order/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/layouts/navbar.blade.php" />
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/project_stock_order/app/User.php" />
         <option value="$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_22_132317_create_product_controller_table.php" />
         <option value="$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_23_065303_create_product_order_table.php" />
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/product-create.blade.php" />
@@ -145,11 +117,9 @@
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/product-edit.blade.php" />
         <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/project_stock_order/routes/web.php" />
         <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/PayController.php" />
         <option value="$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_22_133607_create_pay_order_table.php" />
         <option value="$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_22_133219_create_basket_table.php" />
-        <option value="$PROJECT_DIR$/project_stock_order/config/app.php" />
         <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/ListorderController.php" />
         <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/BasketCController.php" />
         <option value="$PROJECT_DIR$/project_stock_order/public/css/style.css" />
@@ -157,8 +127,15 @@
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php" />
         <option value="$PROJECT_DIR$/project_stock_order/resources/views/storehouse.blade.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/config/app.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_30_144236_create_facebook_account_table.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/app/User.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/app/Http/Controllers/FacebookAuthController.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/config/services.php" />
+        <option value="$PROJECT_DIR$/project_stock_order/.env" />
+        <option value="$PROJECT_DIR$/project_stock_order/routes/web.php" />
       </list>
     </option>
   </component>
@@ -246,6 +223,12 @@
       <path value="$PROJECT_DIR$/project_stock_order/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/project_stock_order/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/project_stock_order/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/project_stock_order/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/project_stock_order/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/project_stock_order/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/project_stock_order/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/project_stock_order/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/project_stock_order/vendor/laravel/socialite" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -369,7 +352,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ba&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/basket.blade.php&#10;store&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/storehouse.blade.php&#10;log&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/Auth/LoginController.php&#10;stock&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/StockorderController.php&#10;login&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/Auth/LoginController.php&#10;wel&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/welcome.blade.php&#10;list&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/ListorderController.php&#10;css&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/public/css/style.css&#10;app&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/layouts/app.blade.php&#10;web&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/routes/web.php&#10;app.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/config/app.php&#10;bas&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/BasketCController.php&#10;baske&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/BasketCController.php&#10;we&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/welcome.blade.php&#10;reg&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/auth/register.blade.php&#10;auth&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Providers/AuthServiceProvider.php&#10;home&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/HomeController.php&#10;back&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/backoffice.blade.php&#10;homeco&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/HomeController.php&#10;env&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/.env&#10;user&#9;null&#9;null&#10;w&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/routes/web.php&#10;create&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/product-create.blade.php&#10;pay&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_22_133607_create_pay_order_table.php&#10;bast&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_22_133219_create_basket_table.php&#10;product&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_22_132317_create_product_controller_table.php&#10;con&#9;null&#9;null&#10;app.cs&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/public/css/app.css&#10;users&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="en&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/.env&#10;หำพ&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/config/services.php&#10;env&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/.env&#10;user&#9;null&#9;null&#10;face&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_30_144236_create_facebook_account_table.php&#10;serv&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/config/services.php&#10;app&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/config/app.php&#10;web&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/routes/web.php&#10;cre&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/product-create.blade.php&#10;ba&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/basket.blade.php&#10;store&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/storehouse.blade.php&#10;log&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/Auth/LoginController.php&#10;stock&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/StockorderController.php&#10;login&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/Auth/LoginController.php&#10;wel&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/welcome.blade.php&#10;list&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/ListorderController.php&#10;css&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/public/css/style.css&#10;app.&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/config/app.php&#10;bas&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/BasketCController.php&#10;baske&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/BasketCController.php&#10;we&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/welcome.blade.php&#10;reg&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/auth/register.blade.php&#10;auth&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Providers/AuthServiceProvider.php&#10;home&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/HomeController.php&#10;back&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/backoffice.blade.php&#10;homeco&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/app/Http/Controllers/HomeController.php&#10;w&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/routes/web.php&#10;create&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/resources/views/product-create.blade.php&#10;pay&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_22_133607_create_pay_order_table.php&#10;bast&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_22_133219_create_basket_table.php&#10;product&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2018_05_22_132317_create_product_controller_table.php&#10;con&#9;null&#9;null&#10;app.cs&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/public/css/app.css&#10;users&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/git-/project_stock/project_stock_order/database/migrations/2014_10_12_000000_create_users_table.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -413,6 +396,9 @@
       <workItem from="1526997124439" duration="97000" />
       <workItem from="1527054030232" duration="18016000" />
       <workItem from="1527176295332" duration="26107000" />
+      <workItem from="1527670166575" duration="287000" />
+      <workItem from="1527678622224" duration="645000" />
+      <workItem from="1527688670409" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="auth and popup complete login">
       <created>1526833694977</created>
@@ -453,13 +439,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72868000" />
+    <option name="totallyTimeSpent" value="76121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -468,7 +454,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32977304" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32977304" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32977304" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -520,34 +506,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ขาด login facebook&#10;, update data1 ,&#10;insert 3 ,&#10;delete 2 &#10;upload 1 &#10;,select option 1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="56" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/backoffice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -635,22 +593,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_22_132317_create_product_controller_table.php" />
     <entry file="file://$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_23_070727_create_product_order_table.php" />
-    <entry file="file://$PROJECT_DIR$/project_stock_order/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -670,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,20 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="208" column="67" selection-start-line="208" selection-start-column="67" selection-end-line="208" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/product-create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/PayController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -751,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/BasketCController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="1620">
           <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
@@ -763,23 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/ListorderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -806,45 +716,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="720">
           <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/basket.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="255">
           <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#816#850#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php">
+    <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/storehouse.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1945">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="810">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/ListorderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/storehouse.blade.php">
+    <entry file="file://$PROJECT_DIR$/project_stock_order/resources/views/product-create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="630">
+          <caret line="42" column="67" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="209" column="67" lean-forward="true" selection-start-line="209" selection-start-column="67" selection-end-line="209" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/StockorderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#199#226#0#HTML" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/database/migrations/2018_05_30_144236_create_facebook_account_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/app/Http/Controllers/FacebookAuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_stock_order/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
         </state>
       </provider>
     </entry>

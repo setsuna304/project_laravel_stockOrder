@@ -22,3 +22,5 @@ Route::resource('/', 'ListorderController');
 Route::resource('/backoffice', 'StockorderController');
 Route::resource('/basket', 'BasketCController');
 Route::resource('/payorder', 'PayController');
+Route::get('/auth/facebook','FacebookAuthController@redirect');
+Route::get('/auth/facebook/callback','FacebookAuthController@handleFacebookCallback');
